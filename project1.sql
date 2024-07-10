@@ -4,7 +4,7 @@ ALTER COLUMN ordernumber TYPE integer USING (ordernumber::integer),
 ALTER COLUMN quantityordered TYPE integer USING (quantityordered::integer),
 ALTER COLUMN priceeach TYPE numeric USING (priceeach::numeric),
 ALTER COLUMN orderlinenumber TYPE integer USING (orderlinenumber::integer),
-ALTER COLUMN sales TYPE numeric USING (orderlinenumber::numeric),
+ALTER COLUMN sales TYPE numeric USING (sales::numeric),
 ALTER COLUMN orderdate TYPE date USING (orderdate::date),
 ALTER COLUMN msrp TYPE integer USING (msrp::integer)
 --Check NULL/BLANK (‘’)  ở các trường: ORDERNUMBER, QUANTITYORDERED, PRICEEACH, ORDERLINENUMBER, SALES, ORDERDATE--
